@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   
+
+    <Spinner
+        android:id="@+id/spinnerPlayer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/label_group"
+        android:completionThreshold="1"
+        android:singleLine="true" 
+        android:hint="Select player 1"
+        android:imeOptions="actionNext"
+        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+    <Spinner
+        android:id="@+id/spinnerPlayer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/label_group"
+        android:completionThreshold="1"
+        android:hint="Select player 2"
+        android:singleLine="true" 
+        android:imeOptions="actionDone"
+        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+    <Button
+        android:id="@+id/buttonNewGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/label_game_start" />
+
+</LinearLayout>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:columnCount="6"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:rowCount="6"
+    android:weightSum="1"
+    >
+
+    <TextView
+        android:id="@+id/player1Name"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:layout_weight="0.4"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:maxLines="2"
+        android:minLines="2"
+        android:text="Player1"
+        android:textSize="30dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/spacer0"
+        android:layout_width="60sp"
+        android:layout_height="80dp"
+        android:layout_column="2"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:layout_row="0"
+        android:layout_weight="0.2"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="-"
+        />
+
+    <TextView
+        android:id="@+id/player2Name"
+
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_column="4"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:layout_weight="0.4"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:maxLines="2"
+        android:minLines="2"
+        android:text="Player2"
+        android:textSize="30dp"
+         />
+
+
+    <TextView
+        android:id="@+id/player1Max"
+        android:layout_width="wrap_content"
+        android:layout_column="0"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:layout_row="1"
+        android:background="@drawable/back"
+        android:gravity="left"
+        android:maxLines="1"
+        android:text="0"
+        android:textSize="30dp"
+         />
+
+    <TextView
+        android:id="@+id/player1Handicap"
+        android:layout_width="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="right"
+        android:layout_row="1"
+        android:background="@drawable/back"
+        android:gravity="right"
+        android:maxLines="1"
+        android:text="0"
+        android:textSize="30dp"
+         />
+
+    <TextView
+        android:id="@+id/labelCaramboles"
+        android:layout_width="wrap_content"
+        android:layout_column="2"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:layout_row="1"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:text="caramboles"
+        android:textSize="10dp"
+         />
+
+    <TextView
+        android:id="@+id/player2Handicap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_gravity="left"
+        android:layout_row="1"
+        android:background="@drawable/back"
+        android:gravity="left"
+        android:maxLines="1"
+        android:text="0"
+        android:textSize="30dp"
+ />
+
+    <TextView
+        android:id="@+id/player2Max"
+        android:layout_width="wrap_content"
+        android:layout_column="5"
+        android:layout_gravity="right"
+        android:layout_row="1"
+        android:background="@drawable/back"
+        android:gravity="right"
+        android:maxLines="1"
+        android:text="0"
+        android:textSize="30dp"
+       />
+
+
+    <TextView
+        android:id="@+id/player1Avg"
+        android:layout_width="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="left"
+        android:layout_row="2"
+        android:background="@drawable/back"
+        android:gravity="left"
+        android:maxLines="1"
+        android:text="0"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/player1Points"
+        android:layout_width="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="right"
+        android:layout_row="2"
+        android:background="@drawable/back"
+        android:gravity="right"
+        android:maxLength="3"
+        android:maxLines="1"
+        android:text="0"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/labelScore"
+        android:layout_width="wrap_content"
+        android:layout_column="2"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:layout_row="2"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:text="score"
+        android:textSize="10sp"
+         />
+
+    <TextView
+        android:id="@+id/player2Points"
+        android:layout_width="wrap_content"
+        android:layout_column="4"
+        android:layout_gravity="left"
+        android:layout_row="2"
+        android:background="@drawable/back"
+        android:gravity="left"
+        android:maxLines="1"
+        android:text="0"
+        android:textStyle="bold"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/player2Avg"
+        android:layout_width="wrap_content"
+        android:layout_column="5"
+        android:layout_gravity="right"
+        android:layout_row="2"
+        android:background="@drawable/back"
+        android:gravity="right"
+        android:maxLines="1"
+        android:text="0"
+        android:textSize="30sp"
+         />
+
+
+    <TextView
+        android:id="@+id/player1Score"
+        android:layout_width="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="left"
+        android:layout_row="3"
+        android:background="@drawable/back"
+        android:gravity="left"
+        android:maxLines="1"
+        android:text="0"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/player1Turns"
+        android:layout_width="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="right"
+        android:layout_row="3"
+        android:background="@drawable/back"
+        android:gravity="right"
+        android:text="0"
+        android:textSize="30sp"
+
+         />
+
+
+    <TextView
+        android:id="@+id/labelTurns"
+        android:layout_width="wrap_content"
+        android:layout_column="2"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:layout_row="3"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:text="turns"
+        android:textSize="10sp"
+         />
+
+    <TextView
+        android:id="@+id/player2Turns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_gravity="left"
+        android:layout_row="3"
+        android:background="@drawable/back"
+        android:gravity="left"
+        android:maxLines="1"
+        android:text="0"
+        android:textSize="30sp"
+
+         />
+
+    <TextView
+        android:id="@+id/player2Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="5"
+        android:layout_gravity="right"
+        android:layout_row="3"
+        android:background="@drawable/back"
+        android:gravity="right"
+        android:maxLines="1"
+        android:text="0"
+        android:textSize="30sp"
+         />
+
+
+    <EditText
+        android:id="@+id/player1point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_gravity="right"
+        android:layout_row="4"
+        android:background="@drawable/back"
+        android:gravity="right"
+        android:hint="0"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:maxLines="1"
+        android:text=""
+        android:textSize="30sp"
+         />
+
+    <Button
+        android:id="@+id/player1button"
+        android:layout_width="wrap_content"
+        android:layout_column="2"
+        android:layout_columnSpan="2"
+        android:layout_gravity="left"
+        android:layout_row="4"
+        android:text="@string/label_ok"
+        android:textSize="30sp"
+         />
+
+    <EditText
+        android:id="@+id/player2point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_columnSpan="1"
+        android:layout_gravity="left"
+        android:layout_row="4"
+        android:background="@drawable/back"
+        android:gravity="left"
+        android:hint="0"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:text=""
+        android:textSize="30sp"
+         />
+
+
+    <Button
+        android:id="@+id/player2button"
+        android:layout_width="wrap_content"
+        android:layout_column="2"
+        android:layout_gravity="right"
+        android:layout_row="4"
+        android:text="@string/label_ok"
+        android:textSize="30sp"
+         />
+
+    <TextView
+        android:id="@+id/player1Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:id="@+id/player2Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="invisible" />
+
+
+</GridLayout>
+    
+     
+      
+   
+     
+     
+    
+    
+    
+  
+

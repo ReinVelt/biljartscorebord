@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinnerPlayerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/label_group"
+        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/label_name" />
+
+    <EditText
+        android:id="@+id/editHandicap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/label_handicap"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/label_code"
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/editStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Active" />
+
+    <EditText
+        android:id="@+id/editId"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text=""
+        android:visibility="invisible" >
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonSaveUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_user_save" />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+#Sun Mar 11 15:22:02 CET 2018
+base.0=/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/transforms/dexMerger/debug/38
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mechanicape.biljardscore"
+    android:versionCode="2.1"
+    android:versionName="2.1" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.mechanicape.biljardscore.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mechanicape.biljardscore.AddUserActivity"
+            android:label="@string/label_user_add" >
+            <intent-filter>
+                <action android:name="android.intent.action.AddUser" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mechanicape.biljardscore.NewGameActivity"
+            android:label="@string/label_game_start" >
+            <intent-filter>
+                <action android:name="android.intent.action.NewGame" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mechanicape.biljardscore.LoadGameActivity"
+            android:label="load game" >
+            <intent-filter>
+                <action android:name="android.intent.action.LoadGame" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mechanicape.biljardscore.TurnActivity"
+            android:label="score" >
+            <intent-filter>
+                <action android:name="android.intent.action.Turn" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mechanicape.biljardscore.UserAdminActivity"
+            android:label="useradmin" >
+            <intent-filter>
+                <action android:name="android.intent.action.UserAdmin" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mechanicape.biljardscore.EditUserActivity"
+            android:label="edit user" >
+            <intent-filter>
+                <action android:name="android.intent.action.EditUser" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mechanicape.biljardscore.GameStatsActivity" 
+            android:label="stats">
+            <intent-filter>
+                <action android:name="android.intent.action.GameStats" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w1600dp_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w1600dp/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w1280dp-land_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w1280dp-land/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/drawable-mdpi_header.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/drawable-mdpi/header.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/drawable-mdpi_back.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/drawable-mdpi/back.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w1440dp-land_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w1440dp-land/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout_activity_addgroup.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout/activity_addgroup.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w1440dp_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w1440dp/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout_activity_edituser.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout/activity_edituser.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/drawable-mdpi_logo.png.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/drawable-mdpi/logo.png"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout_activity_useradmin.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout/activity_useradmin.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout_activity_main.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w720dp-land_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w720dp-land/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w960dp_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w960dp/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w320dp_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w320dp/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout_activity_newgame.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout/activity_newgame.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w480dp_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w480dp/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w600dp_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w600dp/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w600dp-land_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w600dp-land/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/menu_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/menu/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout_activity_loadgame.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout/activity_loadgame.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout_activity_gamestats.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout/activity_gamestats.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w200dp_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w200dp/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w1280dp_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w1280dp/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w480dp-land_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w480dp-land/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/menu_activity_user.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/menu/activity_user.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout_activity_adduser.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout/activity_adduser.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w720dp_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w720dp/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w1600dp-land_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w1600dp-land/activity_turn.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/menu_activity_main.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/menu/activity_main.xml"
+    },
+    {
+        "merged": "/home/rein/StudioProjects/biljardscorebord1/app/build/intermediates/res/merged/release/layout-w960dp-land_activity_turn.xml.flat",
+        "source": "/home/rein/StudioProjects/biljardscorebord1/app/src/main/res/layout-w960dp-land/activity_turn.xml"
+    }
+]

@@ -1,0 +1,16 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/turnUndo"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:showAsAction="ifRoom"
+        android:title="@string/label_turn_undo"
+        android:visible="true"></item>
+    <item
+        android:id="@+id/gameFinalize"
+        android:icon="@drawable/back"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/label_game_finalize"></item>
+    
+   </menu>
