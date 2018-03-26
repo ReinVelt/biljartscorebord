@@ -27,5 +27,6 @@
     <string name="label_user_admin">user admin</string>
     <string name="label_user_load">Load user</string>
     <string name="label_ok">ok</string>
+    <string name="label_back">back</string>
 
 </resources>

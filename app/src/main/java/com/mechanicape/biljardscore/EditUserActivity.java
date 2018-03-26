@@ -149,5 +149,10 @@ public class EditUserActivity extends Activity
 		super.onDestroy();
 		
 		
-	} 
+	}
+
+	protected void end()
+	{
+		finish();
+	}
 }

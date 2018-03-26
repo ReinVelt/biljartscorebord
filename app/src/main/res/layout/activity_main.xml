@@ -65,13 +65,14 @@
         android:layout_centerHorizontal="true"
         android:src="@drawable/logo"
         tools:context=".MainActivity" />
-           
-            <TextView
-         android:id="@+id/textCopyright"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:layout_alignParentBottom="true"
-      tools:context=".MainActivity"
-         android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textCopyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="TextView"
+        android:textAlignment="center"
+        tools:context=".MainActivity" />
 
 </RelativeLayout>

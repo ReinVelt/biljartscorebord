@@ -1,147 +1,135 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:2:1-89:12
-INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:2:1-89:12
-INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:2:1-89:12
-INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:2:1-89:12
-INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:2:1-89:12
-INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:2:1-89:12
-INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:2:1-89:12
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:2:1-88:12
 	package
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:3:5-43
-		INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml
-	android:versionName
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:2:11-69
-	android:versionCode
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:7:5-9:41
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:6:5-8:41
 	android:targetSdkVersion
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:9:9-38
-		INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:8:9-38
+		INJECTED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:8:9-35
-		INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:7:9-35
+		INJECTED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:11:5-87:19
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:10:5-86:19
 	android:label
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:13:9-41
 	android:icon
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:13:9-45
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:12:9-45
 	android:allowBackup
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:15:9-40
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.mechanicape.biljardscore.MainActivity
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:16:9-24:20
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:label
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:18:13-45
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:17:13-45
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:17:13-69
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:16:13-69
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:21:27-74
 activity#com.mechanicape.biljardscore.AddUserActivity
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:25:9-33:20
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:24:9-32:20
 	android:label
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:27:13-51
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:26:13-51
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:26:13-72
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:25:13-72
 intent-filter#android.intent.action.AddUser+android.intent.category.LAUNCHER
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:27:13-31:29
 action#android.intent.action.AddUser
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:29:17-72
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:28:17-72
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:29:25-69
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:28:25-69
 activity#com.mechanicape.biljardscore.NewGameActivity
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:34:9-42:20
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:33:9-41:20
 	android:label
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:36:13-53
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:35:13-53
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:35:13-72
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:34:13-72
 intent-filter#android.intent.action.NewGame+android.intent.category.LAUNCHER
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:37:13-41:29
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:36:13-40:29
 action#android.intent.action.NewGame
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:38:17-72
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:37:17-72
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:38:25-69
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:37:25-69
 activity#com.mechanicape.biljardscore.LoadGameActivity
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:43:9-51:20
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:42:9-50:20
 	android:label
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:45:13-38
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:44:13-38
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:44:13-73
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:43:13-73
 intent-filter#android.intent.action.LoadGame+android.intent.category.LAUNCHER
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:46:13-50:29
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:45:13-49:29
 action#android.intent.action.LoadGame
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:47:17-73
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:46:17-73
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:47:25-70
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:46:25-70
 activity#com.mechanicape.biljardscore.TurnActivity
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:52:9-60:20
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:51:9-59:20
 	android:label
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:54:13-34
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:53:13-34
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:53:13-69
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:52:13-69
 intent-filter#android.intent.action.Turn+android.intent.category.LAUNCHER
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:55:13-59:29
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:54:13-58:29
 action#android.intent.action.Turn
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:56:17-69
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:55:17-69
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:56:25-66
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:55:25-66
 activity#com.mechanicape.biljardscore.UserAdminActivity
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:61:9-69:20
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:60:9-68:20
 	android:label
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:63:13-38
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:62:13-38
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:62:13-74
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:61:13-74
 intent-filter#android.intent.action.UserAdmin+android.intent.category.LAUNCHER
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:64:13-68:29
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:63:13-67:29
 action#android.intent.action.UserAdmin
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:65:17-74
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:64:17-74
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:65:25-71
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:64:25-71
 activity#com.mechanicape.biljardscore.EditUserActivity
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:70:9-78:20
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:69:9-77:20
 	android:label
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:72:13-38
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:71:13-38
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:71:13-73
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:70:13-73
 intent-filter#android.intent.action.EditUser+android.intent.category.LAUNCHER
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:73:13-77:29
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:72:13-76:29
 action#android.intent.action.EditUser
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:74:17-73
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:73:17-73
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:74:25-70
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:73:25-70
 activity#com.mechanicape.biljardscore.GameStatsActivity
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:79:9-86:20
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:78:9-85:20
 	android:label
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:80:13-34
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:79:13-34
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:79:19-80
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:78:19-80
 intent-filter#android.intent.action.GameStats+android.intent.category.LAUNCHER
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:81:13-85:29
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:80:13-84:29
 action#android.intent.action.GameStats
-ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:82:17-74
+ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:81:17-74
 	android:name
-		ADDED from /home/rein/StudioProjects/biljardscorebord1/app/src/main/AndroidManifest.xml:82:25-71
+		ADDED from /home/rein/Desktop/biljartscorebord/app/src/main/AndroidManifest.xml:81:25-71

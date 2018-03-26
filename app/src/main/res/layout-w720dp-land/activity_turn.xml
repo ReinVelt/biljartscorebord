@@ -15,20 +15,20 @@
 
     <TextView
         android:id="@+id/player1Name"
-        android:layout_width="300dp"
+        android:layout_width="302dp"
         android:layout_height="150dp"
         android:layout_column="0"
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
         android:layout_row="0"
-        android:layout_weight="0.4"
+        android:layout_weight="0.45"
         android:background="@drawable/back"
         android:gravity="center"
         android:maxLines="2"
         android:minLines="2"
         android:text="Player1 Player1"
         android:textSize="60sp"
-       
+
 
         />
 
@@ -40,7 +40,7 @@
         android:layout_columnSpan="2"
         android:layout_gravity="fill"
         android:layout_row="0"
-        android:layout_weight="0.2"
+        android:layout_weight="0.05"
         android:background="@drawable/back"
         android:gravity="center"
         android:maxLines="1"
@@ -56,7 +56,7 @@
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
         android:layout_row="0"
-        android:layout_weight="0.4"
+        android:layout_weight="0.45"
         android:background="@drawable/back"
         android:gravity="center"
         android:maxLines="2"
