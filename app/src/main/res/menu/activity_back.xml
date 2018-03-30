@@ -8,7 +8,6 @@
         android:actionProviderClass="@string/action_main"
         android:checkable="false"
         android:enabled="true"
-
         android:icon="@android:drawable/ic_menu_revert"
         android:showAsAction="always|withText"
         android:title="@string/label_back"
