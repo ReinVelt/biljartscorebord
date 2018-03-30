@@ -117,9 +117,9 @@ public class EditUserActivity extends Activity
 				int status=editStatus.isChecked()?0:1;
 				
 				// check if REQUIRED fields are vacant 
-				if(name.equals("")) 
+				if(name.equals("")|| code<1 || handicap<1)
 				{ 
-					Toast.makeText(getApplicationContext(), "Enter a name", Toast.LENGTH_LONG).show(); 
+					Toast.makeText(getApplicationContext(), "Enter a name and handicap", Toast.LENGTH_LONG).show();
 					return; 
 				} 	
 				else 
@@ -132,7 +132,8 @@ public class EditUserActivity extends Activity
 					db.updatePlayer(player);
 					//db.close();
 					// Save the Data in Database 
-					Toast.makeText(getApplicationContext(), "Changes Saved Successfully ", Toast.LENGTH_LONG).show(); 
+					Toast.makeText(getApplicationContext(), "Saved Successfully ", Toast.LENGTH_LONG).show();
+					finish();
 					
 				} 
 			} 

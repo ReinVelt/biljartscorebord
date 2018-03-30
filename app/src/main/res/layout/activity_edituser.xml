@@ -4,7 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="top"
-    android:orientation="vertical" >
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/labelSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Select a player" />
 
     <Spinner
         android:id="@+id/spinnerPlayerId"
@@ -14,13 +21,29 @@
         android:spinnerMode="dialog"
         tools:listitem="@android:layout/simple_spinner_dropdown_item" />
 
+    <TextView
+        android:id="@+id/labelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/label_name"
+        android:labelFor="@+id/editName" />
+
     <EditText
         android:id="@+id/editName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/label_name"
-        />
+        android:hint="@string/label_name" />
+
+    <TextView
+        android:id="@+id/labelHandicap"
+        android:layout_width="529dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/label_handicap"
+        android:inputType="numberDecimal"
+        android:labelFor="@+id/editHandicap" />
 
     <EditText
         android:id="@+id/editHandicap"
@@ -29,7 +52,16 @@
         android:ems="10"
         android:hint="@string/label_handicap"
         android:inputType="numberDecimal"
-        tools:text="10"/>
+        tools:text="10" />
+
+    <TextView
+        android:id="@+id/labelCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/label_code"
+        android:inputType="numberDecimal"
+        android:labelFor="@+id/editCode" />
 
     <EditText
         android:id="@+id/editCode"
@@ -37,7 +69,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/label_code"
-        android:inputType="numberDecimal" />
+        android:inputType="numberDecimal"
+        android:text="10" />
 
     <CheckBox
         android:id="@+id/editStatus"
@@ -50,8 +83,7 @@
         android:layout_width="match_parent"
         android:layout_height="20dp"
         android:text=""
-        android:visibility="invisible" >
-    </EditText>
+        android:visibility="invisible"></EditText>
 
     <Button
         android:id="@+id/buttonSaveUser"
