@@ -2,8 +2,8 @@
 <resources>
 
     <string name="app_name">Biljardscore</string>
-    <string name="action_settings">Settings</string>
-    <string name="action_about">about</string><string name="hello_world">Hello world!</string>
+    <string name="action_main">Main</string>
+    <string name="action_play">Play</string><string name="hello_world">Hello world!</string>
     <string name="label_user_add">add user</string>
     
     <string name="label_player1">player1</string>
@@ -17,15 +17,18 @@
     <string name="label_add_group">add group</string>
     <string name="label_groupname">Group</string>
     
-    <string name="label_game">game</string><string name="label_game_load">load game</string><string name="label_game_start">start new game</string>
+    <string name="label_game">game</string>
+    <string name="label_game_load">load game</string>
+    <string name="label_game_start">new game</string>
     <string name="label_code">keycode</string>
     <string name="label_turn_undo">undo</string>
     <string name="label_game_finalize">finalize game</string>
-    <string name="label_game_stats">games statistics</string><string name="label_user_save">Save user</string>
-    <string name="label_user_edit">Edit user</string>
+    <string name="label_game_stats">game statistics</string>
+    <string name="label_user_save">save user</string>
+    <string name="label_user_edit">edit user</string>
     
     <string name="label_user_admin">user admin</string>
-    <string name="label_user_load">Load user</string>
+    <string name="label_user_load">load user</string>
     <string name="label_ok">ok</string>
     <string name="label_back">back</string>
 

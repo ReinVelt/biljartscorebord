@@ -1,7 +1,6 @@
 package com.mechanicape.biljardscore;
 
 
-import com.mechanicape.biljardscore.R;
 //import com.example.biljardscore.R.layout;
 //import com.example.biljardscore.R.menu;
 
@@ -9,8 +8,9 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 //import android.app.Dialog;  
-import android.content.Intent; 
-import android.view.View; 
+import android.content.Intent;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button; 
 //import android.widget.EditText; 
 //import android.widget.Toast; 
@@ -64,12 +64,31 @@ public class UserAdminActivity extends Activity {
    
 
 
-	   // @Override
-	   // public boolean onCreateOptionsMenu(Menu menu) {
-	   //     // Inflate the menu; this adds items to the action bar if it is present.
-	   //     //getMenuInflater().inflate(R.menu.activity_useradmin, menu);
-	   //     return true;
-	   // }
+
     
     }
+
+	protected void end()
+	{
+		finish();
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_back, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle item selection
+		switch (item.getItemId()) {
+			case  R.id.btnback:
+				this.end();
+				return true;
+			default:
+				return super.onOptionsItemSelected(item);
+		}
+	}
 }

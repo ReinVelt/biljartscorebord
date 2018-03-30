@@ -1,4 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -6,63 +7,64 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
-     
-         
+    tools:context=".MainActivity">
 
-          <Button
-              android:id="@+id/buttonNewGame"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:layout_alignLeft="@+id/buttonUserAdmin"
-              android:layout_below="@+id/buttonUserAdmin"
-              android:text="@string/label_game_start"
-              tools:context=".MainActivity" />
 
-          <Button
-              android:id="@+id/buttonLoadGame"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:layout_alignParentRight="true"
-              android:layout_below="@+id/buttonNewGame"
-              android:text="@string/label_game_load"
-              tools:context=".MainActivity" />
+    <Button
+        android:id="@+id/buttonNewGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonUserAdmin"
+        android:layout_below="@+id/buttonUserAdmin"
+        android:text="@string/label_game_start"
+        tools:context=".MainActivity" />
 
-          <Button
-              android:id="@+id/buttonGameStats"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:layout_alignLeft="@+id/buttonLoadGame"
-              android:layout_below="@+id/buttonLoadGame"
-              android:text="@string/label_game_stats"
-              tools:context=".MainActivity"
-              android:visibility="gone"/>
+    <Button
+        android:id="@+id/buttonLoadGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonNewGame"
+        android:text="@string/label_game_load"
+        tools:context=".MainActivity" />
 
-          <Button
-              android:id="@+id/buttonUserAdmin"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:layout_alignLeft="@+id/buttonLoadGame"
-              android:layout_alignParentTop="true"
-              android:text="@string/label_user_admin"
-              tools:context=".MainActivity" />
+    <Button
+        android:id="@+id/buttonGameStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonLoadGame"
+        android:layout_below="@+id/buttonLoadGame"
+        android:text="@string/label_game_stats"
+        android:visibility="gone"
+        tools:context=".MainActivity" />
 
-           <Button
-               android:id="@+id/buttonExport"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:layout_alignParentLeft="true"
-               android:layout_below="@+id/buttonGameStats"
-               android:text="export"
-               tools:context=".MainActivity"
-               android:visibility="gone"/>
+    <Button
+        android:id="@+id/buttonUserAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonLoadGame"
+        android:layout_alignParentTop="true"
+        android:text="@string/label_user_admin"
+        tools:context=".MainActivity" />
+
+    <Button
+        android:id="@+id/buttonExport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonGameStats"
+        android:text="export"
+        android:visibility="gone"
+        tools:context=".MainActivity" />
 
     <ImageView
         android:id="@+id/tmalogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/buttonExport"
-        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/textCopyright"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:rotation="-10"
         android:src="@drawable/logo"
         tools:context=".MainActivity" />
 
@@ -71,6 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:autoText="false"
         android:text="TextView"
         android:textAlignment="center"
         tools:context=".MainActivity" />

@@ -14,6 +14,8 @@ import com.mechanicape.biljardscore.model.Turn;
 import android.app.Activity; 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 
@@ -113,6 +115,30 @@ public class GameStatsActivity extends Activity{
 			 
 			LinearLayout layout = (LinearLayout) findViewById(R.id.statsSubLayout);
 			layout.addView(graphView);
+	}
+
+	protected void end()
+	{
+		finish();
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_back, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle item selection
+		switch (item.getItemId()) {
+			case  R.id.btnback:
+				this.end();
+				return true;
+			default:
+				return super.onOptionsItemSelected(item);
+		}
 	}
 	
 }

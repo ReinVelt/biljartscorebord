@@ -9,8 +9,9 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 //import android.app.Dialog;  
-import android.content.Intent; 
-import android.view.View; 
+import android.content.Intent;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button; 
 import android.widget.TextView;
 //import android.widget.EditText; 
@@ -42,7 +43,7 @@ public class MainActivity extends Activity {
          buttonNewGame=(Button)findViewById(R.id.buttonNewGame);
          buttonLoadGame=(Button)findViewById(R.id.buttonLoadGame);
          textCopyright=(TextView)findViewById(R.id.textCopyright);
-         textCopyright.setText("Biljardscorebord v1.3 - stichting Theo's Mechanische Aap");
+         textCopyright.setText(" Biljardscorebord v1.3 \n stichting Theo's Mechanische Aap ");
 
         // Set OnClick Listener on adduser button 
         buttonUserAdmin.setOnClickListener(new View.OnClickListener() 
@@ -104,5 +105,18 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle item selection
+		switch (item.getItemId()) {
+			case  R.id.menuitem_newgame:
+				Intent registerintent=new Intent(getApplicationContext(),NewGameActivity.class);
+				startActivity(registerintent);
+				return true;
+			default:
+				return super.onOptionsItemSelected(item);
+		}
+	}
     
 }

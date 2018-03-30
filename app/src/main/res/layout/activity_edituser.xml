@@ -19,18 +19,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/label_name" />
+        android:hint="@string/label_name"
+        />
 
     <EditText
         android:id="@+id/editHandicap"
-        android:layout_width="match_parent"
+        android:layout_width="529dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/label_handicap"
-        android:inputType="numberDecimal" >
-
-        <requestFocus />
-    </EditText>
+        android:inputType="numberDecimal"
+        tools:text="10"/>
 
     <EditText
         android:id="@+id/editCode"

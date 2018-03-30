@@ -3,27 +3,21 @@
  */
 package com.mechanicape.biljardscore;
 import java.util.List;
-import com.mechanicape.biljardscore.R;
+
 import com.mechanicape.biljardscore.helper.DatabaseHelper;
 import com.mechanicape.biljardscore.model.Game;
 import com.mechanicape.biljardscore.model.Player;
-import com.mechanicape.biljardscore.TurnActivity;
-import android.app.Activity; 
+
+import android.app.Activity;
 import android.content.Intent;
-import android.os.Bundle; 
-import android.text.format.Time;
-import android.view.KeyEvent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.inputmethod.EditorInfo;
-import android.widget.AdapterView.OnItemSelectedListener;
-import android.widget.AdapterView;
-import android.widget.Button; 
-import android.widget.TextView;
-import android.widget.TextView.OnEditorActionListener;
+import android.widget.Button;
 import android.widget.Toast;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.widget.AutoCompleteTextView;
 
 
 public class NewGameActivity extends Activity 
@@ -155,5 +149,29 @@ public class NewGameActivity extends Activity
         playeradapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         playeradapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         db.close();  
+	}
+
+	protected void end()
+	{
+		finish();
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_back, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle item selection
+		switch (item.getItemId()) {
+			case  R.id.btnback:
+				this.end();
+				return true;
+			default:
+				return super.onOptionsItemSelected(item);
+		}
 	}
 }

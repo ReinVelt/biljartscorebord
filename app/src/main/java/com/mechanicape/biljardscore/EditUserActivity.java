@@ -4,16 +4,16 @@
 package com.mechanicape.biljardscore;
 import java.util.List;
 
-import com.mechanicape.biljardscore.R;
 //import com.example.biljardscore.R.layout;
 //import com.example.biljardscore.R.menu;
 import com.mechanicape.biljardscore.helper.DatabaseHelper;
 import com.mechanicape.biljardscore.model.Player;
 
-import android.app.Activity; 
-import android.content.Intent;
-import android.os.Bundle; 
-import android.view.View; 
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button; 
@@ -154,5 +154,24 @@ public class EditUserActivity extends Activity
 	protected void end()
 	{
 		finish();
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_back, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle item selection
+		switch (item.getItemId()) {
+			case  R.id.btnback:
+				this.end();
+				return true;
+			default:
+				return super.onOptionsItemSelected(item);
+		}
 	}
 }

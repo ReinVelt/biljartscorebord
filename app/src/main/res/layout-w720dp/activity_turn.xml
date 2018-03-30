@@ -19,7 +19,7 @@
         android:layout_height="150dp"
         android:layout_column="0"
         android:layout_columnSpan="2"
-        android:layout_gravity="fill_horizontal"
+
         android:layout_row="0"
         android:layout_weight="0.4"
         android:background="@drawable/back"
@@ -27,25 +27,8 @@
         android:maxLines="2"
         android:minLines="2"
         android:text="Player1 Player1"
-        android:textSize="60sp"
-       
-
-        />
-
-    <TextView
-        android:id="@+id/spacer0"
-        android:layout_width="10dp"
-        android:layout_height="100dp"
-        android:layout_column="2"
-        android:layout_columnSpan="2"
-        android:layout_gravity="fill"
-        android:layout_row="0"
-        android:layout_weight="0.2"
-        android:background="@drawable/back"
-        android:gravity="center"
-        android:maxLines="1"
-        android:text="-"
-        />
+        android:textAlignment="center"
+        android:textSize="60sp" />
 
     <TextView
         android:id="@+id/player2Name"
@@ -54,7 +37,7 @@
         android:layout_height="150dp"
         android:layout_column="4"
         android:layout_columnSpan="2"
-        android:layout_gravity="fill_horizontal"
+
         android:layout_row="0"
         android:layout_weight="0.4"
         android:background="@drawable/back"
@@ -62,8 +45,8 @@
         android:maxLines="2"
         android:minLines="2"
         android:text="Player2 Player2"
-        android:textSize="60sp"
-         />
+        android:textAlignment="center"
+        android:textSize="60sp" />
 
 
     <TextView
