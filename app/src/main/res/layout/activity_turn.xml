@@ -62,8 +62,7 @@
         android:maxLines="2"
         android:minLines="2"
         android:text="Player2"
-        android:textSize="30dp"
-         />
+        android:textSize="30dp" />
 
 
     <TextView

@@ -27,10 +27,10 @@
         android:maxLines="2"
         android:minLines="2"
         android:text="Player1"
-        android:textSize="30dp"
+        android:textAlignment="center"
 
 
-        />
+        android:textSize="30dp" />
 
     <TextView
         android:id="@+id/spacer0"
@@ -62,8 +62,8 @@
         android:maxLines="2"
         android:minLines="2"
         android:text="Player2"
-        android:textSize="30dp"
-         />
+        android:textAlignment="center"
+        android:textSize="30dp" />
 
 
     <TextView

@@ -15,7 +15,7 @@
 
     <TextView
         android:id="@+id/player1Name"
-        android:layout_width="302dp"
+        android:layout_width="300dp"
         android:layout_height="150dp"
         android:layout_column="0"
         android:layout_columnSpan="2"
@@ -27,10 +27,10 @@
         android:maxLines="2"
         android:minLines="2"
         android:text="Player1 Player1"
-        android:textSize="60sp"
+        android:textAlignment="center"
 
 
-        />
+        android:textSize="60sp" />
 
     <TextView
         android:id="@+id/spacer0"
@@ -62,8 +62,8 @@
         android:maxLines="2"
         android:minLines="2"
         android:text="Player2 Player2"
-        android:textSize="60sp"
-         />
+        android:textAlignment="center"
+        android:textSize="60sp" />
 
 
     <TextView
