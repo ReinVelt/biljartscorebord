@@ -42,28 +42,32 @@ public class AddUserActivity extends Activity
 		// Get References of Views 
 		editName=(EditText)findViewById(R.id.editName); 
 		editHandicap=(EditText)findViewById(R.id.editHandicap); 
-		editCode=(EditText)findViewById(R.id.editCode); 
+		editCode=(EditText)findViewById(R.id.editCode);
+		editCode.setText(Integer.toString((int)Math.random()));
 		
 		buttonNewUser=(Button)findViewById(R.id.buttonNewUser);
 		buttonNewUser.setOnClickListener(new View.OnClickListener() 
 		{
 		
 			public void onClick(View v) { 
-				int groupId=1; //this is for the basic version
+
 				String name=editName.getText().toString(); 
-				int handicap=Integer.parseInt(editHandicap.getText().toString());
-				int code=Integer.parseInt(editCode.getText().toString());
+
 				
 				// check if REQUIRED fields are vacant 
-				if(name.equals("") ) 
+				if(name.equals("") )
 				{ 
-					Toast.makeText(getApplicationContext(), "Enter a name", Toast.LENGTH_LONG).show(); 
+					Toast.makeText(getApplicationContext(), "Enter a name, caramboles and optional keycode", Toast.LENGTH_LONG).show();
 					return; 
 				} 
 				// check if both password matches
 				
 				else 
-				{   db = new DatabaseHelper(getApplicationContext());
+				{
+					int groupId=1; //this is for the basic version
+					int handicap=Integer.parseInt(editHandicap.getText().toString());
+					int code=Integer.parseInt(editCode.getText().toString());
+					db = new DatabaseHelper(getApplicationContext());
 					player=new Player();
 					player.setName(name);
 					player.setHandicap(handicap);

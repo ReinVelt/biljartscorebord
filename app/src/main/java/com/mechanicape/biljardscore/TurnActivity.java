@@ -449,11 +449,11 @@ public class TurnActivity extends Activity {
 			        //Toast.makeText(getApplicationContext(),"GAME SAVED", Toast.LENGTH_SHORT).show();
 			        Toast.makeText(getApplicationContext(),"END OF GAME.....PRESS * TO EXIT GAME", Toast.LENGTH_LONG).show();
 			        player1Score.setText(Integer.toString(game.getGameScore(p1Id)));
-					player1Avg.setText(String.format("%.3f",game.getAverageCarambolesByPlayerId(p1Id)));;
-					player1Max.setText(Integer.toString(game.getMostCarambolesByPlayerId(p1Id)));
+					player1Avg.setText(String.format("%.3f",game.getAverageCarambolesByPlayerId(p1Id)));
+                player1Max.setText(Integer.toString(game.getMostCarambolesByPlayerId(p1Id)));
 					player2Score.setText(Integer.toString(game.getGameScore(p2Id)));
-					player2Avg.setText(String.format("%.3f", game.getAverageCarambolesByPlayerId(p2Id)));;
-					player2Max.setText(Integer.toString(game.getMostCarambolesByPlayerId(p2Id)));
+					player2Avg.setText(String.format("%.3f", game.getAverageCarambolesByPlayerId(p2Id)));
+                player2Max.setText(Integer.toString(game.getMostCarambolesByPlayerId(p2Id)));
 			        player1button.setVisibility(View.INVISIBLE);
 					p1newPoints.setVisibility(View.INVISIBLE);
 					player2button.setVisibility(View.INVISIBLE);

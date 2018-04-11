@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Biljardscore</string>
+    <string name="app_name">Biljartscorebord</string>
     <string name="action_main">Main</string>
     <string name="action_play">Play</string><string name="hello_world">Hello world!</string>
     <string name="label_user_add">add user</string>

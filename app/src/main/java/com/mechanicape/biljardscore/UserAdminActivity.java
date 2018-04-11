@@ -11,12 +11,16 @@ import android.view.Menu;
 import android.content.Intent;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button; 
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
+
+import java.util.List;
 //import android.widget.EditText; 
 //import android.widget.Toast; 
 
-//import com.mechanicape.biljardscore.helper.DatabaseHelper;
-//import com.mechanicape.biljardscore.model.*;
+import com.mechanicape.biljardscore.helper.DatabaseHelper;
+import com.mechanicape.biljardscore.model.*;
 
 public class UserAdminActivity extends Activity {
 	
@@ -25,6 +29,8 @@ public class UserAdminActivity extends Activity {
     //DatabaseHelper db;
     Button buttonAddUser;
     Button buttonLoadUser;
+    ListView listviewUser;
+	DatabaseHelper db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
     	super.onCreate(savedInstanceState);
@@ -34,6 +40,14 @@ public class UserAdminActivity extends Activity {
         // Get The Reference Of Buttons 
          buttonAddUser=(Button)findViewById(R.id.buttonAddUser);
          buttonLoadUser=(Button)findViewById(R.id.buttonLoadUser);
+         listviewUser=(ListView) findViewById(R.id.listViewUser);
+		db = new DatabaseHelper(getApplicationContext());
+		List<String> userlist = db.getPlayerList();
+		//gamelist.add("test");
+		//List<String> grouplist =new ArrayList<String>();
+		ArrayAdapter<String> playeradapter = new ArrayAdapter<String> (this,android.R.layout.simple_list_item_1,userlist);
+		listviewUser.setAdapter(playeradapter);
+		playeradapter.setDropDownViewResource(android.R.layout.simple_list_item_1);
 
         // Set OnClick Listener on adduser button 
         buttonAddUser.setOnClickListener(new View.OnClickListener() 
@@ -57,16 +71,18 @@ public class UserAdminActivity extends Activity {
 		        Intent registerintent=new Intent(getApplicationContext(),EditUserActivity.class); 
 		        startActivity(registerintent); 
 		    } 
-	    }); 
-        
-     
-       
-   
+	    });
 
 
 
-    
-    }
+
+
+
+
+
+
+
+	}
 
 	protected void end()
 	{

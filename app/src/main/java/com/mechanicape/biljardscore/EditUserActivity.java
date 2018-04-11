@@ -32,7 +32,7 @@ public class EditUserActivity extends Activity
 	CheckBox editStatus;
 	Button buttonSaveUser;
 	Spinner spinnerPlayerId;
-	long playerId;
+	long playerId=0;
 	
 	// Database Helper
     DatabaseHelper db;
@@ -112,15 +112,23 @@ public class EditUserActivity extends Activity
 				//int groupId=1; //this is for the basic version
 				String name=editName.getText().toString(); 
 				int playerId=Integer.parseInt(editId.getText().toString());
-				int handicap=Integer.parseInt( editHandicap.getText().toString());
+				int handicap=Integer.parseInt(editHandicap.getText().toString());
 				int code=Integer.parseInt(editCode.getText().toString());
 				int status=editStatus.isChecked()?0:1;
 				
 				// check if REQUIRED fields are vacant 
-				if(name.equals("")|| code<1 || handicap<1)
-				{ 
-					Toast.makeText(getApplicationContext(), "Enter a name and handicap", Toast.LENGTH_LONG).show();
-					return; 
+				if(name.equals("")|| code<1 || handicap<1 || playerId<1)
+				{
+					if (playerId<1)
+					{
+						Toast.makeText(getApplicationContext(), "Select a player", Toast.LENGTH_LONG).show();
+						return;
+					}
+					else
+					{
+						Toast.makeText(getApplicationContext(), "Enter a name and handicap", Toast.LENGTH_LONG).show();
+						return;
+					}
 				} 	
 				else 
 				{   //db = new DatabaseHelper(getApplicationContext());

@@ -52,6 +52,7 @@
         android:ems="10"
         android:hint="@string/label_handicap"
         android:inputType="numberDecimal"
+        android:text="0"
         tools:text="10" />
 
     <TextView
@@ -70,7 +71,8 @@
         android:ems="10"
         android:hint="@string/label_code"
         android:inputType="numberDecimal"
-        android:text="10" />
+        android:text="10"
+        tools:text="0" />
 
     <CheckBox
         android:id="@+id/editStatus"
@@ -82,7 +84,7 @@
         android:id="@+id/editId"
         android:layout_width="match_parent"
         android:layout_height="20dp"
-        android:text=""
+        android:text="0"
         android:visibility="invisible"></EditText>
 
     <Button

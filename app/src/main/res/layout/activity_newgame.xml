@@ -6,6 +6,13 @@
     android:orientation="vertical" >
 
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select 2 players"
+        tools:text="Select 2 players" />
+
     <Spinner
         android:id="@+id/spinnerPlayer1"
         android:layout_width="match_parent"
